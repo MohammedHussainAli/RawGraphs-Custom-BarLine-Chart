@@ -1,19 +1,22 @@
-# Paired barchart for RAWGraphs
+# BarLine chart for RAWGraphs
 
 This custom chart is intedend to be used in https://app.rawgraphs.io/.
 
-## What are Paired Barcharts
+## What are BarLinecharts
 
 ![](https://raw.githubusercontent.com/rawgraphs/rawgraphs-paired-barchart/master/src/barchartpaired/barchartpaired_thumb.svg)
 
-This chart is designed for comparing two numerical dimensions across a set of ordered categories.
+The BarLine Chart combines bar charts and line charts into a single visualization, allowing you to:
 
-The most common application is for creating "[population pyramids](https://en.wikipedia.org/wiki/Population_pyramid)". In a population pyramid, one gender is represented on each side of the chart, with age groups arranged vertically. This allows you to observe the overall distribution of age groups and compare the distributions between males and females.
+Compare two numerical dimensions for each category — bars for one value (e.g., sales, volume) and a line for another (e.g., growth rate, trend).
+Visualize trends and relationships between values across categories.
+Easily identify patterns, peaks, and dips by combining bar heights and line slopes.
+This chart is perfect for showing comparisons between actual vs. target values, revenue vs. profit margins, or volume vs. trend lines.
 
 ## Installation
 
-- Download the latest release from the side panel on this page, or via [this link](https://github.com/rawgraphs/rawgraphs-paired-barchart/releases/latest/pairedbarchart.umd.js).
-- In [RAWgraphs interface](https://app.rawgraphs.io/), load a dataset. You can use [this sample](https://raw.githubusercontent.com/rawgraphs/rawgraphs-paired-barchart/master/example/datasets/population_2019.csv).
+- Download the latest release from the side panel on this page, or via [this link](https://github.com/MohammedHussainAli/RawGraphs-Custom-BarLine-Chart).
+- In [RAWgraphs interface](https://app.rawgraphs.io/), load a dataset. You can use sample data set.
 - In the section `"2. Choose a chart"` scroll down and click on the button `"Load your chart"`
 - Select the `"Load from file"` tab
 - Drag and drop the downloaded file
@@ -35,28 +38,23 @@ select "Paired Barchart". If you don't see it, read the section [Installation](#
 
 #### Mapping
 
-Drag and drop the dimensions to the chart variables as it follows:
+Drag and drop the data dimensions into the chart's mapping panel:
 
-* `Male` on `Left side`
-* `Female` on `Right side`
-* `Age` on `Y Axis`
+Category → X Axis (e.g., Months, Products)
+Bar Value → Bar Height (e.g., Sales, Volume)
+Line Value → Line Position (e.g., Growth, Trend)
 
 #### Customize
 
-The chart offers some options to customize the chart.
+The BarLine Chart allows several customizations to make your visualizations stand out:
 
-In the **Axis** panel you'll find all the variables for handling the bottom axes ticks and their appearance.
-
-* In `Vertical label override` put as text "Age group"
-
-In the **Chart** you can define bars paddings, the internal space, and bars sorting
-
-* Set `Space for common axis` to 80
-
-In the **Color** panel you can associate one main tint that is then used to color the bars according to their value
-
-* Set the first `Color scheme` to "Red sequential"
-* Set the second `Color scheme` to "Green sequential"
+Axes
+Adjust tick size and rotation to handle long labels.
+Set the bar padding for better spacing between bars.
+Bars and Lines
+Change bar colors and line colors using custom gradients.
+Enable or disable data labels for both bars and lines.
+Toggle dots on the line chart to highlight data points.
 
 
 
