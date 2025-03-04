@@ -4,7 +4,7 @@ This custom chart is intedend to be used in https://app.rawgraphs.io/.
 
 ## What are BarLinecharts
 
-![](https://raw.githubusercontent.com/rawgraphs/rawgraphs-paired-barchart/master/src/barchartpaired/barchartpaired_thumb.svg)
+![](https://raw.githubusercontent.com/MohammedHussainAli/RawGraphs-Custom-BarLine-Chart/refs/heads/main/src/barLine/barLine_thumb.svg)
 
 The BarLine Chart combines bar charts and line charts into a single visualization, allowing you to:
 
